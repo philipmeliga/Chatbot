@@ -67,10 +67,12 @@ body .card #message-section #user #user-response {
 color: #fff; 
 } 
 body .card #message-section .message { 
-color: #000; 
+color: black; 
 clear: both; 
 line-height: 1.2vw; 
-font-size: 1.2vw; 
+height: 30px;
+width:200px;
+font-size: 50px; 
 padding: 8px; 
 position: relative; 
 margin: 8px 0; 
@@ -81,19 +83,23 @@ z-index: 2;
 body .card #input-section { 
 z-index: 1; 
 padding: 0 2.5vw; 
+
 display: flex; 
 flex-direction: row; 
 align-items: flex-end; 
+font-size:20px;
 overflow: hidden; 
-height: 6vw; 
+height: 20vw; 
 width: 100%; 
 } 
 body .card #input-section input { 
 color: #000; 
 min-width: 0.5vw; 
 outline: none; 
-height: 5vw; 
-width: 26vw; 
+height: 10vw; 
+font-size:20px;
+border-radius:5px;
+width: 50vw; 
 border-top: none; 
 border-left: none; 
 border-right: none; 
@@ -112,14 +118,15 @@ outline: none;
 } 
 body .card .send .circle { 
 position: relative; 
-width: 4.8vw; 
-height: 4.8vw; 
+width: 10.8vw; 
+height: 14.8vw; 
 display: flex; 
 align-items: center; 
 justify-content: center; 
 } 
 body .card .send .circle i { 
-font-size: 3vw; 
+font-size: 10vw; 
+color:blue;
 margin-left: -1vw; 
 margin-top: 1vw;
 }
