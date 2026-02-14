@@ -1,5 +1,5 @@
 *{
- font-size: 1.3vw; 
+ font-size: 2.3vw; 
  font-family: "Epilogue", sans-serif; 
  } 
 html { 
@@ -31,14 +31,14 @@ body .card #header {
    font-family: "Finger Paint", cursive; padding: 1vw; 
    } 
 body .card #message-section::-webkit-scrollbar { 
-width: 100px; 
+width: 10px; 
 
 } 
 body .card #message-section { 
 height: 400px; 
 padding: 0 2.5vw; 
-overflow-y: auto; 
-font-size:800px;
+
+font-size:80px;
 scrollbar-width: thin; 
 scrollbar-color: var(--thumbBG) var(--scrollbarBG); 
 } 
@@ -52,6 +52,7 @@ body .card #message-section::-webkit-scrollbar-thumb {
     } 
 body .card #message-section #bot, body .card #message-section #user { 
 position: relative; 
+font-size:30px;
 bottom: 0; 
 min-height: 1.5vw; 
 border: 0.15vw solid #777; 
@@ -62,13 +63,13 @@ margin: 1.5vw 0;
 } 
 body .card #message-section #user { 
 border: 1.5px solid #000; 
-font-size:800px;
+font-size:20px;
 border-radius: 1.5vw 0vw 1.5vw 1.8vw; background-color: #000; 
 float: right; 
 } 
 body .card #message-section #user #user-response { 
 color: #fff; 
-font-size:800px;
+font-size:10px;
 } 
 body .card #message-section .message { 
 color: black; 
@@ -91,7 +92,7 @@ padding: 0 2.5vw;
 display: flex; 
 flex-direction: row; 
 align-items: flex-end; 
-font-size:200px;
+font-size:20px;
 overflow: hidden; 
 height: 20vw; 
 width: 100%; 
@@ -103,7 +104,7 @@ outline: none;
 height: 10vw; 
 font-size:20px;
 border-radius:5px;
-width: 50vw; 
+width: 500vw; 
 border-top: none; 
 border-left: none; 
 border-right: none; 
