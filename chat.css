@@ -10,10 +10,12 @@ body {
  background: #ccc;
   } 
 body .card { 
-   height: 45vw; 
-   width: 35vw; 
-   background-color: white;
-   margin-left: 30vw; 
+   height: 500px; 
+   width: 100%; 
+   border-radius: 10px;
+   background-color: lightblue;
+   margin-left: 5px; 
+   
    margin-top: 5vw;
     box-shadow: 2vw 2vw 12vw 3vw #ccc;
      } 
@@ -24,7 +26,8 @@ body .card #header {
  } 
  body .card #header h1 { 
    color: #fff; 
-   font-size: 2vw; 
+   font-size: 2vw;
+   text-align:center; 
    font-family: "Finger Paint", cursive; padding: 1vw; 
    } 
 body .card #message-section::-webkit-scrollbar { 
