@@ -31,12 +31,14 @@ body .card #header {
    font-family: "Finger Paint", cursive; padding: 1vw; 
    } 
 body .card #message-section::-webkit-scrollbar { 
-width: 10px; 
+width: 100px; 
+
 } 
 body .card #message-section { 
-height: 32vw; 
+height: 400px; 
 padding: 0 2.5vw; 
 overflow-y: auto; 
+font-size:800px;
 scrollbar-width: thin; 
 scrollbar-color: var(--thumbBG) var(--scrollbarBG); 
 } 
@@ -60,19 +62,21 @@ margin: 1.5vw 0;
 } 
 body .card #message-section #user { 
 border: 1.5px solid #000; 
+font-size:800px;
 border-radius: 1.5vw 0vw 1.5vw 1.8vw; background-color: #000; 
 float: right; 
 } 
 body .card #message-section #user #user-response { 
 color: #fff; 
+font-size:800px;
 } 
 body .card #message-section .message { 
 color: black; 
 clear: both; 
 line-height: 1.2vw; 
-height: 30px;
+height: 50px;
 width:200px;
-font-size: 50px; 
+font-size: 100px; 
 padding: 8px; 
 position: relative; 
 margin: 8px 0; 
@@ -87,7 +91,7 @@ padding: 0 2.5vw;
 display: flex; 
 flex-direction: row; 
 align-items: flex-end; 
-font-size:20px;
+font-size:200px;
 overflow: hidden; 
 height: 20vw; 
 width: 100%; 
@@ -111,7 +115,7 @@ border: 0;
 cursor: pointer; 
 flex: 0 0 auto; 
 margin-left: 1.4vw; 
-margin-right: 0vw; 
+margin-right: 10vw; 
 padding: 0; 
 position: relative; 
 outline: none; 
@@ -127,7 +131,7 @@ justify-content: center;
 body .card .send .circle i { 
 font-size: 10vw; 
 color:blue;
-margin-left: -1vw; 
+margin-left: 0vw; 
 margin-top: 1vw;
 }
 
